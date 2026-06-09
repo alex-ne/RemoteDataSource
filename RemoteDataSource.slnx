@@ -1,0 +1,8 @@
+<Solution>
+  <Project Path="RemoteDataSource.csproj">
+    <BuildDependency Project="SocketCommon\SocketCommon.csproj" />
+  </Project>
+  <Project Path="SocketClient\SocketClient.csproj" />
+  <Project Path="SocketCommon\SocketCommon.csproj" />
+  <Project Path="SocketServer\SocketServer.csproj" />
+</Solution>

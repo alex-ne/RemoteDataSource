@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+
+  <ItemGroup>
+    <Compile Remove="SocketCommon\**" />
+    <Compile Remove="SocketServer\**" />
+    <Compile Remove="SocketClient\**" />
+    <EmbeddedResource Remove="SocketCommon\**" />
+    <EmbeddedResource Remove="SocketServer\**" />
+    <EmbeddedResource Remove="SocketClient\**" />
+    <None Remove="SocketCommon\**" />
+    <None Remove="SocketServer\**" />
+    <None Remove="SocketClient\**" />
+  </ItemGroup>
+
+</Project>
